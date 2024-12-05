@@ -11,8 +11,8 @@ using namespace std;
 #define S second
 
 #define ALL(x) (x).begin(), (x).end()
-#define READ freopen("in.txt", "r", stdin)
-#define WRITE freopen("out.txt", "w", stdout)
+#define READ freopen("in2.txt", "r", stdin)
+#define WRITE freopen("out2.txt", "w", stdout)
 
 #ifndef ONLINE_JUDGE
 #define DBG(x) cout << __LINE__ << " says: " << #x << " = " << (x) << endl
@@ -149,7 +149,7 @@ int32_t main()
     MAP_INS_OPC["nor"] = "b";
     MAP_INS_OPC["addi"] = "c";
     MAP_INS_OPC["subi"] = "4";
-    MAP_INS_OPC["andi"] = "5";
+    MAP_INS_OPC["andi"] = "e";
     MAP_INS_OPC["ori"] = "8";
     MAP_INS_OPC["sw"] = "2";
     MAP_INS_OPC["lw"] = "0";
@@ -388,7 +388,7 @@ int32_t main()
 
     //    DBG(machine_code);
 
-    cout << "v2.0 raw" << endl;
+    // cout << "v2.0 raw" << endl;
 
     for (auto x : machine_code)
     {
